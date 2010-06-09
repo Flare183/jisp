@@ -1,0 +1,5 @@
+* README
+** Jisp
+*** By Jesse N. Richardson
+**** (aka Flare183)
+***** This repo is the beginning of my lisp programming

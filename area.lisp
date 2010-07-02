@@ -6,10 +6,11 @@
 ;;     (if (string= a "2")
 ;; 	"You Picked 2")))
 
-(defun area (*solution*)
-  (print "Input the Left Side of the Square")
-  (let (x (read)))
-  (print "Input the Bottom/Top Side of the Square")
-  (let (y (read)))
-  ;; Now Calcuate it
-  (let (* x y) *solution*))
+(defun area ()
+       (let (x y)
+	 (format t "Enter the x variable~%")
+	 (setf x (read))
+	 (format t "Enter the y variable~%")
+	 (setf y (read))
+	 (format t "The answer is~%")
+	 (values (* y x))))

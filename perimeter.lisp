@@ -1,0 +1,8 @@
+(defun perimeter ()
+  (let (x y)
+    (format t "Enter The 1st Side~%")
+    (setf a (read))
+    (format t "Enter the Second Side~%")
+    (setf b (read))
+    (format t "Answer:~%")
+    (values (+ a b))))

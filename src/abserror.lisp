@@ -1,1 +1,10 @@
-(defvar )
+(defun abserror ()
+  (let (x y)
+    (format t "Enter the exact measurement~%")
+    (setf x (read))
+    (format t "Enter the Proposed Measurement~%")
+    (setf y (read))
+    (format t "The absolute error is:~%")
+    (values (abs (- x y)))))
+
+(provide :abserror)
